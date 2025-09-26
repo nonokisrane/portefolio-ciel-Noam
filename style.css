@@ -1,3 +1,18 @@
+/* Galerie de projets */
+.gallery {
+	display: flex;
+	flex-wrap: wrap; /* Permet de passer à la ligne */
+	gap: 1rem;
+}
+
+.card {
+	flex-basis: 300px; /* Taille de base */
+	flex-grow: 1;      /* Les cartes grandissent pour remplir l'espace */
+	background-color: white;
+	padding: 1rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px #0001;
+}
 header {
 	display: flex;
 	justify-content: space-between; /* Pour pousser les éléments aux extrémités */
@@ -16,6 +31,6 @@ nav ul {
 
 body {
 	font-family: 'Segoe UI', Arial, sans-serif;
-	background-color: #f0f4f8;
+	background-color: #ce56a0ab;
 	color: #3b2230;
 }
